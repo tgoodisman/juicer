@@ -76,7 +76,7 @@ read2str="_R2"
 ## Default options, overridden by command line arguments 
 # Juicer directory, contains scripts/, references/, and restriction_sites/ 
 # can also be set in options via -D   
-juiceDir="/aidenlab"
+juiceDir="/Volumes/HD_2TB/Chytrid/opt/jucier"
 
 # size to split fastqs. adjust to match your needs. 4000000=1M reads per split
 # can also be changed via the -C flag
