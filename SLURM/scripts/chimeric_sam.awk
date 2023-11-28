@@ -161,7 +161,7 @@ BEGIN{
       while ((getline < site_file) > 0) {
 	  gsub(/_/, "", $1);
 	  for (i=2; i<=NF; i++) {
-	      chromosomes[$1][i-2]=$i;
+	      chromosomes[$1,i-2]=$i;
 	  }
 	  if (length(NF)>fraglen) {
 	      fraglen=length(NF);
