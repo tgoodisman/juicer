@@ -1,0 +1,7 @@
+# Directories
+*/.DS_Store
+aligned/
+_old/
+splits/HIC003_S2_L001_001.fastq.bam
+references/Homo_sapiens_assembly19.fasta*
+CPU/common/chimeric_sam_test.awk
