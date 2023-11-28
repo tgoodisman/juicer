@@ -1,0 +1,14 @@
+# Directories
+*/.DS_Store
+
+# Large file types
+*.fastq
+*.fq
+*.fasta
+*.fa
+*.bam
+*.bwt
+*.pac
+*.sa
+*.hic
+
