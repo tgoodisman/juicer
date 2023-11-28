@@ -67,6 +67,7 @@ shopt -s extglob
 juicer_version="2.0"
 ## Set the following variables to work with your system
 
+<<com
 # Aiden Lab specific check
 isRice=$(host $(hostname) | awk 'NR==1{if ($1~/rice/) {print 1} else {print 0}; exit}') #'
 isBCM=$(host $(hostname) | awk 'NR==1{if ($1~/bcm/) {print 1} else {print 0}; exit}') #'
@@ -131,6 +132,10 @@ else
     long_queue="long"
     long_queue_time="7200"
 fi
+com
+
+# set juiceDir
+juiceDir="/path/to/opt/juicer2"
 
 # size to split fastqs. adjust to match your needs. 4000000=1M reads per split
 # can also be changed via the -C flag
