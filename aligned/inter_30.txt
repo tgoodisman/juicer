@@ -1,0 +1,27 @@
+Experiment description: Sample name HiC_sample; Juicer version 2.0; BWA 0.7.17-r1188; 4 threads; openjdk version "21.0.1" 2023-10-17 LTS; Juicer Tools Version 2.20.00; /Volumes/HD_2TB/Chytrid/juicer/scripts/juicer.sh -g hg19 -p references/hg19.chrom.sizes -y restriction_sites/hg19_MboI.txt -D /Volumes/HD_2TB/Chytrid/juicer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Read type: Paired End
+Sequenced Read Pairs:  2348578
+No chimera found: 21448 (0.91%)
+ One or both reads unmapped: 21448 (0.91%)
+2 alignments: 2251836 (95.88%)
+ 2 alignments (A...B): 1865150 (79.42%)
+ 2 alignments (A1...A2B; A1B2...B1A2): 386686 (16.46%)
+3 or more alignments: 75294 (3.21%)
+Ligation Motif Present: N/A
+Average insert size: 391.66
+Total Unique: 2245631 (99.72%, 95.62%)
+Total Duplicates: 6205 (0.28%, 0.26%)
+Library Complexity Estimate*: 407,852,215
+Intra-fragment Reads: N/A
+Below MAPQ Threshold: 386,892 (16.47% / 17.23%)
+Hi-C Contacts: 1,858,739 (79.14% / 82.77%)
+ 3' Bias (Long Range): 50% - 50%
+ Pair Type %(L-I-O-R): 25% - 25% - 25% - 25%
+ L-I-O-R Convergence: 1874
+Inter-chromosomal: 344,076 (14.65% / 15.32%)
+Intra-chromosomal: 1,514,663 (64.49% / 67.45%)
+Short Range (<20Kb):
+  <500BP: 256,115 (10.91% / 11.41%)
+  500BP-5kB: 107,643 (4.58% / 4.79%)
+  5kB-20kB: 135,281 (5.76% / 6.02%)
+Long Range (>20Kb): 1,015,624 (43.24% / 45.23%)

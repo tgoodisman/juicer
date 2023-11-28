@@ -1,0 +1,2 @@
+Wed Nov 22 16:31:39 GMT 2023
+Experiment description: Sample name HiC_sample; Juicer version 2.0; BWA 0.7.17-r1188; 4 threads; openjdk version "21.0.1" 2023-10-17 LTS; Juicer Tools Version 2.20.00; /Volumes/HD_2TB/Chytrid/juicer/scripts/juicer.sh -g hg19 -p references/hg19.chrom.sizes -y restriction_sites/hg19_MboI.txt -D /Volumes/HD_2TB/Chytrid/juicer

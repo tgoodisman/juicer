@@ -1,0 +1,62 @@
+(-: Looking for fastq files...fastq files exist
+(-: Created /Volumes/HD_2TB/Chytrid/juicer/splits.
+(-: Aligning files matching /Volumes/HD_2TB/Chytrid/juicer/fastq/*_R*.fastq*
+ to genome /Volumes/HD_2TB/Chytrid/juicer/references/Homo_sapiens_assembly19.fasta with no fragment delimited maps.
+Running command bwa mem -SP5M -t 4 -R @RG\tID:HIC003_S2_L001_001\tSM:HiC_sample\tPL:ILM\tLB:HiC_library /Volumes/HD_2TB/Chytrid/juicer/references/Homo_sapiens_assembly19.fasta /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_R1_001.fastq /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_R2_001.fastq > /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_001.fastq.sam
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 3200000 sequences (320000000 bp)...
+[M::process] read 1497156 sequences (149715600 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (24590, 314539, 23174, 24502)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (1929, 3948, 6540)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15762)
+[M::mem_pestat] mean and std.dev: (4341.39, 2755.44)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20373)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (331, 374, 426)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (141, 616)
+[M::mem_pestat] mean and std.dev: (371.62, 65.23)
+[M::mem_pestat] low and high boundaries for proper pairs: (46, 711)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (2171, 4129, 6634)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15560)
+[M::mem_pestat] mean and std.dev: (4474.33, 2699.71)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20023)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (1964, 3947, 6493)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15551)
+[M::mem_pestat] mean and std.dev: (4334.06, 2736.36)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20080)
+[M::mem_process_seqs] Processed 3200000 reads in 26310.083 CPU sec, 50451.616 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (11508, 146319, 11063, 11696)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (1918, 3897, 6476)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15592)
+[M::mem_pestat] mean and std.dev: (4292.79, 2736.15)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20150)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (331, 375, 427)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (139, 619)
+[M::mem_pestat] mean and std.dev: (372.18, 65.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (43, 715)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (2134, 4119, 6705)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15847)
+[M::mem_pestat] mean and std.dev: (4489.69, 2731.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20418)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (1931, 3941, 6536)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 15746)
+[M::mem_pestat] mean and std.dev: (4325.48, 2743.30)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 20351)
+[M::mem_process_seqs] Processed 1497156 reads in 916.399 CPU sec, 373.872 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -K 320000000 -SP5M -t 4 -R @RG\tID:HIC003_S2_L001_001\tSM:HiC_sample\tPL:ILM\tLB:HiC_library /Volumes/HD_2TB/Chytrid/juicer/references/Homo_sapiens_assembly19.fasta /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_R1_001.fastq /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_R2_001.fastq
+[main] Real time: 50910.570 sec; CPU: 27246.121 sec
+(-:  Align of /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_001.fastq.sam done successfully
+awk: syntax error at source line 164 source file /Volumes/HD_2TB/Chytrid/juicer/scripts/common/chimeric_sam.awk
+ context is
+		      >>>  chromosomes[$1][ <<< i-2]=$i;
+awk: illegal statement at source line 164 source file /Volumes/HD_2TB/Chytrid/juicer/scripts/common/chimeric_sam.awk
+/Volumes/HD_2TB/Chytrid/juicer/scripts/juicer.sh: line 555: samtools: command not found
+***! Failure during chimera handling of /Volumes/HD_2TB/Chytrid/juicer/splits/HIC003_S2_L001_001.fastq
