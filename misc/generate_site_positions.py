@@ -22,10 +22,11 @@ def process_args(args):
   # elements into this dictionary.
 
   filenames = {
-    'hg19': '/seq/references/Homo_sapiens_assembly19.fasta',
-    'mm9' : '/seq/references/Mus_musculus_assembly9.fasta',
-    'mm10': '/seq/references/Mus_musculus_assembly10.fasta',
-    'hg18': '/seq/references/Homo_sapiens_assembly18.fasta',
+    'hg19': '/references/Homo_sapiens_assembly19.fasta',
+    'mm9' : '/references/Mus_musculus_assembly9.fasta',
+    'mm10': '/references/Mus_musculus_assembly10.fasta',
+    'hg18': '/references/Homo_sapiens_assembly18.fasta',
+    'Bd' : '/references/BD_JEL423.genome.new-names.fa',
   }
 
   # Enzyme to search pattern mappings
